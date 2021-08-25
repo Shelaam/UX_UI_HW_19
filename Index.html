@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./index.js" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
+
+<style>
+    body {
+        background-color: black;
+    }
+</style>
+
+<body>
+    <script> console.log("Your index.js file is loaded correctly!")</script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <!-- Nav HTML -->
+
+    <header>
+        <div>
+        <header class="header">
+            <div class="logo"></div>
+                <img class="logo" src="Images/Logo.webp">
+        </div>
+    
+        <nav class="inline-block">
+            <ul>
+            <li class="inline-block"><a href="#About Me">ABOUT ME</a></li>
+            <li class="inline-block"><a href="#My Skills">MY SKILLS</a></li>
+            <li class="inline-block"><a href="#Resume">RESUME</a></li>
+            <li class="inline-block"><a href="#My Work">MY WORK</a></li>
+            </ul>
+        </nav>
+    
+     </header>
+    <iframe src="https://giphy.com/embed/PnAxMzThQ9DMWEKsZO" width="150" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/small-logo-PnAxMzThQ9DMWEKsZO"></a></p>
+    <h1 style="color: white" style="text-align:center">Shelaam Janmohamed</h1>
+    <p style="color: white" style="text-align:center">Hi and welcome!  Here you will get to know me (my quirkiness) and my journey thus far!</p>
+    
+    <div class="button">
+        <button style="background-color: fuchsia;">Connect With Me!</button> 
+    </div>
+    
+
+
+    
+        <!-- Column Layout -->
+    <!--<div class="w3-container">
+        <h2>Cards</h2>
+        <p>Create paper-like cards with the w3-card classes:</p>
+      
+        <div class="w3-panel w3-card"><p>w3-card</p></div>
+        <div class="w3-panel w3-card-2"><p>w3-card-2</p></div>
+        <div class="w3-panel w3-card-4"><p>w3-card-4</p></div>
+      </div>
+    <div class="w3-container">
+        <h1>Cards</h1> 
+    <div class="w3-panel w3-card">
+    <div class="column">
+        <div class="casestudy1">
+            <div class="text">
+                <h1 style="color: white;">Funpedia</h1>
+                <p style="color: white;">An instant and on the spot activities generator app.</p>
+            </div>
+        </div>
+        <div class="casestudy2">
+            <div class="text">
+                    <h1 style="color: white;">Government Website Redesign</h1>
+                    <p style="color: white;">The Canada Border Service Agency (CBSA) is a government agency that provides<br>travel and trade information to the public.</p>
+               </div>
+            </div> 
+            
+        <div class="casestudy3">
+        <div class="text">
+                    <h1 style="color: white;">Responsive Non-Profit Organization Redesign</h1>
+                    <p style="color: white;">Conservancy of Canada (NCC) is a non-profit organization<br>that protects nature's treasures and wildlife.</p>
+                   </div>
+                </div>    
+        </div>-->
+<style>
+* {
+    box-sizing: border-box;
+          }
+          .row {
+              display: flex;
+          }
+
+          .column {
+            float: left;
+            text-align: center;
+            width: 1000px;
+            height: 300px; 
+          }
+          
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+
+          }
+
+          .navbar {
+                overflow: hidden;
+                position: fixed;
+                nav-right: 0;
+                top: 0;
+                padding: 0px;
+                width: 100%;
+                height: 100%;
+                color: white;
+                text-align: center;
+            }
+
+            .navbar a {
+                float: right;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 50px 50px;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        </style>
+
+    <div class="container-fluid">
+            <div class="row">
+                <div class="column">
+                    <div class="casestudy1"></div>
+                    <h2 style="color: white;">Funpedia</h2>
+                    <img src="Images/Funpedia 1.png" alt="Image of Funpedia Homepage" width="150px" height="150px">
+                    <img src="Images/Funpedia 2.png" alt="Image of Funpedia 2" width="150px" height="150px">
+                    <img src="Images/Funpedia 3.png" alt="Image of Funpedia 3" width="150px" height="150px">
+                    <p style="color: white;">An instant and on the spot activities generator app.</p>
+                    <a class="btn-posnawr" href="#">LEARN MORE<span></span></a>
+            </div>
+
+
+                <div class="column">
+                    <div class="casestudy2"></div>
+                    <h2 style="color: white;">Government Website Redesign</h2>
+                    <img src="Images/Government 1.png" alt="Image of Government Homepage" width="150px" height="150px">
+                    <img src="Images/Government 2.png" alt="Image of Government 2" width="150px" height="150px">
+                    <img src="Images/Government 3.png" alt="Image of Government 3" width="150px" height="150px">
+                    <p style="color: white;">The Canada Border Service Agency (CBSA)<br>is a government agency that provides<br>travel and trade information to the public.</p>
+                    <a class="btn-posnawr" href="#">LEARN MORE<span></span></a>
+                </div>
+
+                <div class="column">
+                    <div class="casestudy3"></div>
+                    <h2 style="color: white;">Non-Profit Organization Redesign</h2>
+                    <img src="Images/Non-Profit 1.png" alt="Image of Non-Profit Homepage" width="150px" height="150px">
+                    <img src="Images/Non-Profit 2.png" alt="Image of Non-Profit 2" width="150px" height="150px">
+                    <img src="Images/Non-Profit 3.png" alt="Image of Non-Profit 3" width="150px" height="150px">
+                    <p style="color: white;">Nature Conservancy of Canada (NCC) is a<br>non-profit organization that<br>protects nature's treasures and wildlife.</p>
+                    <a class="btn-posnawr" href="#">LEARN MORE<span></span></a>
+                </div>
+            </div>
+    </div>
+</body>
+
+
+    <!-- Footer HTML -->
+
+
+<div class="container">
+    <div class="footer-nav">
+        <div id="footer">
+            <a href="#email" class="email">EMAIL</a>
+            <a href="#phone" class="phone">PHONE</a>
+        </div>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+<footer>
+  <div class="rounded-social-buttons">
+                    <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+</footer>
+    </div>
+</div>
+
+    <div class="footer-bottom">
+            <h4>&copy | 2021 | Designed by Shelaam Janmohamed | All Rights Reserved</h4>
+    </div>
+</div>
+
+
+
+
+</html

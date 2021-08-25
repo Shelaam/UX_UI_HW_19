@@ -1,0 +1,404 @@
+header {
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    float: left;
+}
+
+nav {
+    margin-top: 20px;
+    float: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+    padding: 15px 15px 15px 15px;
+}
+
+.button {
+    height: 200px;
+    width: 200px;
+    color: white
+}
+
+.head {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+/*.navbar {
+    display: flex;
+    float: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}*/
+
+* {
+    box-sizing: border-box;
+          }
+
+          .column {
+            flex: 100%;
+            max-width: 100%;
+          }
+
+          .container-fluid {
+            position: relative;
+            width: 100%;
+          }
+          
+
+          /*.navbar {
+                overflow: hidden;
+                position: fixed;
+                nav-right: 0;
+                top: 0;
+                padding: 0px;
+                width: 100%;
+                height: 100%;
+                color: white;
+                text-align: center;
+            }
+
+            .navbar a {
+                float: right;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 50px 50px;
+                text-decoration: none;
+                font-size: 18px;
+            }*/
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    margin: center;
+    padding: -25px;
+}
+              
+.flexContainer2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    margin: center;
+    padding: -25px;
+}
+              
+.flexContainer3{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    margin: center;
+    padding: -25px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.btn-posnawr {
+    color:lightsteelblue;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 1rem auto;
+    font: normal 14px/15px 'proxima-nova', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid lightsteelblue;
+  }
+  .btn-posnawr span {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 0;
+    border-radius: 50%;
+    background-color:royalblue;
+    -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  .btn-posnawr:hover {
+    color: white;
+  }
+  .btn-posnawr:hover span {
+    width: 225%;
+    height: 562.5px;
+  }
+  
+  .rounded-social-buttons {
+    text-align: center;
+  }
+  
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 3.125rem;
+    height: 3.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-facebook-f, .fa-linkedin, .fa-instagram {
+    font-size: 25px;
+  }
+  
+    .social-button.facebook {
+    background: #3b5998;
+  }
+  
+    .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin {
+    background: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
+  
+
+/*.button{
+    position: relative;
+    padding: 10px 30px;
+    border: 2px solid greenyellow;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: greenyellow;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.btn:hover{
+color: greenyellow
+}
+
+.btn span{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background: yellowgreen;
+    transition: width 0.5s, height 0.5s;
+    z-index: -1;
+}*/
+
+
+
+
+
+
+/** {
+    box-sizing: border-box;
+  }
+
+.column {
+    display: grid;
+    display: flex;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Column styles */
+/*.column {
+    display: flex;
+    height: 800px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.casestudy1, .casestudy2, .casestudy3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+/*.casestudy1 {
+    display: flex;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.casestudy2 {
+    background-image: url("../Images/Users/shelaamjanmohamed/Documents/Github/My Portfolio/Images/Government 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.casestudy3 {
+    background-image: url("../Images/Users/shelaamjanmohamed/Documents/Github/My Portfolio/Images/Non-Profit 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    background:dimgrey;
+    width: 100%;
+    padding: 2opx 40px;
+    color: white;
+}
+
+.text h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}/*
+
+/* Footer Styles */
+#footer {
+    float: bottom;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-top: 300px;
+    width: 100%;
+    bottom: 0%;
+    color: white;
+}
+
+.icon {
+	border-radius: 2.6rem;
+	cursor: pointer;
+	display: inline-block;
+	margin: 15px 15px 15px;
+	position: relative;
+	text-align: center;
+}
+
+
+.footer-bottom h4 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: right;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    
+    #categoryGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas:
+        "Funpedia" "Government Redesign" 
+        "Non-Profit Organization Redesign"
+      ;
+    }
+    
+    #categoryGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "Funpedia"
+        "Government Redesign"
+        "Non-Profit Organization Redesign"
+      ;
+    }
+  }
+  
+
+
